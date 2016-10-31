@@ -2,5 +2,6 @@ node_modules
 bin
 obj
 Properties
+Web.config
 Web.debug.config
-Web.Release.congfig
+Web.Release.config
