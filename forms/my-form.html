@@ -1,0 +1,16 @@
+﻿<h2>Post Data</h2>
+<h2>Result</h2>
+<div>
+    <h3>Name:{{newEmployee.FullName}}</h3>
+    <h4>TKID:{{newEmployee.TKID}}</h4>
+    <h4>Posted:{{newEmployee.Saved}}</h4>
+
+</div>
+<button type="button" (click)="addEmployee()">Add</button>
+<h2>Result</h2>
+<div *ngIf="hasData">
+    <h3>Name:{{updEmployee.FullName}}</h3>
+    <h4>TKID:{{updEmployee.TKID}}</h4>
+    <h4>Posted:{{updEmployee.Saved}}</h4>
+
+</div>
